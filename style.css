@@ -188,6 +188,10 @@ body {
 
 .hero-image {
     position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-image img {
@@ -196,6 +200,30 @@ body {
     box-shadow: 0 20px 60px rgba(0,0,0,0.3);
     transform: perspective(1000px) rotateY(-5deg);
     transition: transform 0.3s ease;
+}
+
+.floating-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 25px 60px rgba(102, 126, 234, 0.3);
+    animation: floating 3s ease-in-out infinite;
+    transition: transform 0.3s ease;
+}
+
+.floating-image:hover {
+    transform: scale(1.05) translateY(-10px);
+    box-shadow: 0 35px 80px rgba(102, 126, 234, 0.4);
+}
+
+/* Floating Animation */
+@keyframes floating {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
 }
 
 .hero-image:hover img {
