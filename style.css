@@ -279,7 +279,7 @@ body {
 
 .problema-item h3 {
     font-size: 1.3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem; /* Reduced spacing */
     color: var(--text-dark);
 }
 
@@ -311,7 +311,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
     font-size: 1.1rem;
     padding: 0.8rem;
     background: rgba(102, 126, 234, 0.1);
@@ -379,7 +379,7 @@ body {
 
 .solucao-item h3 {
     font-size: 1.3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem; /* Reduced spacing */
 }
 
 /* Benefícios */
@@ -479,7 +479,7 @@ body {
 
 .oferta-header h2 {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem; /* Reduced spacing */
     color: var(--text-dark);
 }
 
@@ -544,7 +544,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem; /* Reduced spacing */
     font-size: 1.1rem;
     padding: 0.5rem;
     background: rgba(16, 185, 129, 0.05);
@@ -686,7 +686,7 @@ body {
 .faq-item {
     background: var(--background-light);
     border-radius: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem; /* Reduced spacing */
     overflow: hidden;
     transition: all 0.3s ease;
     border-left: 4px solid var(--primary-purple);
@@ -739,7 +739,7 @@ body {
 
 .contato h2 {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem; /* Reduced spacing */
 }
 
 .contato p {
@@ -1034,5 +1034,15 @@ html {
     height: 100px; /* Aumentado para 2.5X o tamanho anterior */
     vertical-align: middle;
     margin-right: 10px;
+}
+
+
+
+.ebook-image img {
+    transform: scale(1.05);
+    transform-origin: center center;
+    margin: -5% -5%;
+    position: relative;
+    z-index: 1;
 }
 
