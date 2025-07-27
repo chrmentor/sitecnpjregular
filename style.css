@@ -907,7 +907,7 @@ html {
 
 
 .ebook-offer {
-    padding: 80px 0;
+    padding: 20px 0; /* Reduzido ainda mais o padding */
     background: var(--background-white);
     text-align: center;
 }
@@ -1026,5 +1026,13 @@ html {
     .ebook-text-and-button li {
         justify-content: center;
     }
+}
+
+
+
+.solucao-logo {
+    height: 30px; /* Ajuste o tamanho conforme necessário */
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
